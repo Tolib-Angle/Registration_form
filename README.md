@@ -22,7 +22,7 @@ Password confirmation: exAm65#ple
 Date: 2001-01-01
 
 _____________________
-Author: Abdukarimov T.A.
+Author: [Tolib](https://github.com/Tolib-Angle)
 
 Date of completion: 17-03-2023
 
