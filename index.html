@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+	<script src="js/script.js"></script>
+	<title>Registration form</title>
+</head>
+<body>
+	<div class="intro">
+		<div class="container">
+			<div class="form_container">
+				<form>
+					<h1>Регистрация</h1>
+					<div id="name_block" class="error_block">
+						<input id="name" type="text" placeholder="Имя" autofocus onchange="checkName()"/>
+						<span id="incorrect_name" class="error_text"></span>
+					</div>
+					<div id="surname_block" class="error_block">
+						<input id="surname" type="text" placeholder="Фамилия" onchange="checkSurname()"/>
+						<span id="incorrect_surname" class="error_text"></span>
+					</div>
+					<div id="email_block" class="error_block">
+						<input id="email" type="email" placeholder="Email" onchange="checkEmail()"/>
+						<span id="incorrect_email" class="error_text"></span>
+					</div>
+					<div class="divider"></div>
+					<span>Минимальная длина пароля 8 символов!</span>
+					<div id="password_block" class="error_block">
+						<input id="password_input" type="password" placeholder="Пароль" onchange="checkPassword()"/>
+						<input id="repeat_password_input" type="password" placeholder="Подтверждение пароля" onchange="checkPassword2()"/>
+						<span id="incorrect_password" class="error_text"></span>
+					</div>
+					<a href="#" class="view_password" onclick="passwordView()">Показать пароль</a>
+					<div class="divider"></div>
+               		<span>Дата рождения:</span>
+               		<input id="birth_date" type="date" name="birth_date" min="1925-01-01" max="2023-01-01" onchange="checkBirthDate()">
+               		<span id="birth_date_block">Ваш возрост должен быть не менее 18 лет!</span>
+               		<button id="btn_reg" disabled="true">Зарегистрироваться</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
