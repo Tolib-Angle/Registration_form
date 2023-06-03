@@ -2,7 +2,7 @@
 ### Author: [Tolib](https://github.com/Tolib-Angle) Date of loading: 03.06.2023
 For web application form (page) registration (HTML, CSS, JavaScript)
 
-################ registration form ################
+registration form
 ===================================================
 The form has fields: first name, last name, email, 
 password, password confirmation, date of birth.
@@ -18,7 +18,7 @@ Date: 2001-01-01
 Author: Abdukarimov T.A.
 Date of completion: 17-03-2023
 ===================================================
-############### start instructions ################
+start instructions
 ===================================================
 path: ../Registration page/...
 run file: index.html
